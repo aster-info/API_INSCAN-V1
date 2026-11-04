@@ -1,0 +1,133 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Tableau de Bord & Pointage QR Code" [level=1] [ref=e17]
+            - generic [ref=e18]: Google Apps Script Live
+          - paragraph [ref=e19]: Suivi des présences en temps réel, alertes cotisations & scanner connecté Google Sheets
+        - generic [ref=e20]:
+          - generic [ref=e21]: Mode Local
+          - generic [ref=e30]:
+            - generic [ref=e36]: "Inscrits:"
+            - strong [ref=e37]: "5"
+          - generic [ref=e38]:
+            - generic [ref=e42]: "Présents:"
+            - strong [ref=e43]: "1"
+          - generic [ref=e44]:
+            - generic [ref=e48]: "Sortis:"
+            - strong [ref=e49]: "1"
+          - generic [ref=e50]:
+            - generic [ref=e53]: "Cotisation non réglée:"
+            - strong [ref=e54]: "2"
+      - navigation "Sections principales" [ref=e55]:
+        - button "Tableau de Bord" [ref=e56] [cursor=pointer]
+        - button "Scanner QR Code (Connecté)" [ref=e63] [cursor=pointer]
+        - button "Feuille INSCRIPTIONS 5" [ref=e71] [cursor=pointer]:
+          - generic [ref=e74]: Feuille INSCRIPTIONS
+          - generic [ref=e75]: "5"
+        - button "Aperçu E-mail & Badge" [ref=e76] [cursor=pointer]
+        - button "Code.gs & Guide Google Apps Script" [ref=e81] [cursor=pointer]
+  - main [ref=e88]:
+    - region [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: Tableau de Bord Live
+              - button "Mode Local / Connecter Web App" [ref=e96] [cursor=pointer]
+            - heading "Journée Scientifique & Médicale 2026" [level=1] [ref=e105]
+            - paragraph [ref=e106]: 📅 Samedi 14 Novembre 2026 à 08h30 • 📍 Palais des Congrès - Auditoire Pasteur
+          - generic [ref=e107]:
+            - button "Lancer le Scanner QR" [ref=e108] [cursor=pointer]
+            - button "+ Inscription Form" [ref=e116] [cursor=pointer]
+            - button "Exporter CSV" [ref=e119] [cursor=pointer]
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - text: Total Inscrits
+              - generic [ref=e128]: "5"
+            - generic [ref=e135]:
+              - generic [ref=e136]: "En attente d'arrivée :"
+              - strong [ref=e137]: "3"
+          - generic [ref=e138]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: Présents en salle
+              - generic [ref=e143]: "1"
+            - generic [ref=e149]:
+              - generic [ref=e150]: Taux de présence
+              - generic [ref=e151]: 20%
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - text: Sorties Enregistrées
+              - generic [ref=e157]: "1"
+            - generic [ref=e162]:
+              - generic [ref=e163]: "Flux sortant :"
+              - generic [ref=e164]: 20% des inscrits
+          - generic [ref=e165]:
+            - generic [ref=e167]:
+              - text: Cotisation non réglée
+              - generic [ref=e168]: "2"
+            - generic [ref=e172]:
+              - generic [ref=e173]: "À régulariser à l'accueil :"
+              - generic [ref=e174]: Priorité Accueil
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - heading "Répartition par Titre" [level=3] [ref=e183]
+              - generic [ref=e184]: "Total: 5"
+            - generic [ref=e185]:
+              - generic [ref=e187]:
+                - generic [ref=e188]: Infirmier
+                - generic [ref=e189]: 2 (40%)
+              - generic [ref=e193]:
+                - generic [ref=e194]: Pharmacien
+                - generic [ref=e195]: 1 (20%)
+              - generic [ref=e199]:
+                - generic [ref=e200]: Auxiliaire
+                - generic [ref=e201]: 1 (20%)
+              - generic [ref=e205]:
+                - generic [ref=e206]: Autre
+                - generic [ref=e207]: 1 (20%)
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - heading "Régimes Alimentaires (Traiteur)" [level=3] [ref=e216]
+              - generic [ref=e217]: Pour la pause
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - generic [ref=e220]: Végé
+                - generic [ref=e221]: 1 portion
+              - generic [ref=e222]:
+                - generic [ref=e223]: Sans gluten
+                - generic [ref=e224]: 1 portion
+              - generic [ref=e225]:
+                - generic [ref=e226]: Sans porc
+                - generic [ref=e227]: 1 portion
+              - generic [ref=e228]:
+                - generic [ref=e229]: Aucun
+                - generic [ref=e230]: 1 portion
+              - generic [ref=e231]:
+                - generic [ref=e232]: Végan
+                - generic [ref=e233]: 1 portion
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - heading "Derniers Pointages" [level=3] [ref=e240]
+                - button "Voir tout →" [ref=e241] [cursor=pointer]
+              - generic [ref=e242]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e246]: Nadia Benali
+                    - generic [ref=e247]: (MBR-0003)
+                  - generic [ref=e248]: Sorti
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - generic [ref=e252]: Camille Dubois
+                    - generic [ref=e253]: (MBR-0001)
+                  - generic [ref=e254]: Présent
+            - button "Ouvrir la caméra de pointage" [ref=e255] [cursor=pointer]
+  - contentinfo [ref=e256]:
+    - generic [ref=e257]:
+      - generic [ref=e258]: Tableau de Bord Événement & Pointage QR Code — Solution Web & Google Apps Script
+      - generic [ref=e259]: Synchronisation temps réel avec Google Sheets (doGet & onFormSubmit)

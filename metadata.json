@@ -1,0 +1,6 @@
+{
+  "name": "QR Event Check-in & Google Apps Script Suite",
+  "description": "Système complet d'automatisation Google Sheets & Apps Script : inscriptions Google Form, génération d'IDs et QR Codes, e-mails de confirmation et API de pointage en temps réel.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,183 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Event QR & Google Apps Script" [level=1] [ref=e17]
+            - generic [ref=e18]: Google Sheets v2.4
+          - paragraph [ref=e19]: Inscriptions automatisées, génération de badges QR Code & API de pointage temps réel
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e27]: "Inscrits:"
+            - strong [ref=e28]: "5"
+          - generic [ref=e29]:
+            - generic [ref=e33]: "Présents:"
+            - strong [ref=e34]: "2"
+          - generic [ref=e35]:
+            - generic [ref=e39]: "Sortis:"
+            - strong [ref=e40]: "1"
+          - generic [ref=e41]:
+            - generic [ref=e44]: "Cotisation non réglée:"
+            - strong [ref=e45]: "2"
+      - navigation "Sections principales" [ref=e46]:
+        - button "Code.gs & Guide Déploiement" [ref=e47] [cursor=pointer]
+        - button "Feuille INSCRIPTIONS & Pointage 5" [ref=e54] [cursor=pointer]:
+          - generic [ref=e57]: Feuille INSCRIPTIONS & Pointage
+          - generic [ref=e58]: "5"
+        - button "Scanner QR Jour J (Entrée/Sortie)" [ref=e59] [cursor=pointer]
+        - button "Aperçu E-mail & Badge" [ref=e67] [cursor=pointer]
+  - main [ref=e72]:
+    - region [ref=e280]:
+      - generic [ref=e281]:
+        - generic [ref=e464]: Entrée validée avec succès pour Julien Vandenameele (MBR-0002).
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - heading "Feuille \"INSCRIPTIONS\" (Simulateur Google Sheets)" [level=2] [ref=e287]
+              - paragraph [ref=e288]: 13 colonnes dynamiques A à M synchronisées en direct avec les actions de pointage
+            - generic [ref=e289]:
+              - button "Ouvrir Scanner Jour J" [ref=e290] [cursor=pointer]
+              - button "+ Simuler Réponse Google Form" [ref=e298] [cursor=pointer]
+              - button "Réinitialiser le tableau" [ref=e301] [cursor=pointer]
+          - generic [ref=e305]:
+            - 'textbox "Rechercher par nom, ID (ex: MBR-0001), institution..." [ref=e310]'
+            - generic [ref=e311]:
+              - generic [ref=e312]: "Statut:"
+              - button "Tous" [ref=e315] [cursor=pointer]
+              - button "Inscrit" [ref=e316] [cursor=pointer]
+              - button "Présent" [ref=e317] [cursor=pointer]
+              - button "Sorti" [ref=e318] [cursor=pointer]
+        - table [ref=e321]:
+          - rowgroup [ref=e322]:
+            - row [ref=e323]:
+              - columnheader "#" [ref=e324]
+              - 'columnheader "A : Horodateur" [ref=e325]'
+              - 'columnheader "B : Votre Nom" [ref=e326]'
+              - 'columnheader "C : Votre Prénom" [ref=e327]'
+              - 'columnheader "D : Adresse Email" [ref=e328]'
+              - 'columnheader "E : Titre" [ref=e329]'
+              - 'columnheader "F : Institution" [ref=e330]'
+              - 'columnheader "G : Régime" [ref=e331]'
+              - 'columnheader "H : Cotisation ?" [ref=e332]'
+              - 'columnheader "I : ID Membre" [ref=e333]'
+              - 'columnheader "J : QR Code" [ref=e334]'
+              - 'columnheader "K : Statut" [ref=e335]'
+              - 'columnheader "L : Heure d''entrée" [ref=e336]'
+              - 'columnheader "M : Heure de sortie" [ref=e337]'
+              - columnheader "Actions de pointage" [ref=e338]
+          - rowgroup [ref=e339]:
+            - row [ref=e340]:
+              - cell "2" [ref=e341]
+              - cell "03/11/2026 09:12:45" [ref=e342]
+              - cell "Dubois" [ref=e343]
+              - cell "Camille" [ref=e344]
+              - cell "c.dubois@chu-saintpierre.be" [ref=e345]
+              - cell "Infirmier" [ref=e346]
+              - cell "CHU Saint-Pierre (Bruxelles)" [ref=e347]
+              - cell "Végé" [ref=e348]
+              - cell "Oui" [ref=e349]
+              - cell "MBR-0001" [ref=e350]
+              - cell [ref=e351]:
+                - button "QR MBR-0001 Voir" [ref=e352] [cursor=pointer]:
+                  - img "QR MBR-0001" [ref=e353]
+                  - generic [ref=e354]: Voir
+              - cell "Présent" [ref=e355]
+              - cell "03/11/2026 08:32:10" [ref=e360]
+              - cell "—" [ref=e361]
+              - cell [ref=e362]:
+                - generic [ref=e363]:
+                  - button "Pointer Entrée" [ref=e364] [cursor=pointer]
+                  - button "Pointer Sortie" [ref=e365] [cursor=pointer]
+            - row [ref=e469]:
+              - cell "3" [ref=e367]
+              - cell "03/11/2026 09:15:20" [ref=e368]
+              - cell "Vandenameele" [ref=e369]
+              - cell "Julien" [ref=e370]
+              - cell "j.vandenameele@clinique-europe.org" [ref=e371]
+              - cell "Pharmacien" [ref=e372]
+              - cell "Cliniques de l'Europe" [ref=e373]
+              - cell "Sans gluten" [ref=e374]
+              - cell "Non" [ref=e375]
+              - cell "MBR-0002" [ref=e379]
+              - cell [ref=e380]:
+                - button "QR MBR-0002 Voir" [ref=e381] [cursor=pointer]:
+                  - img "QR MBR-0002" [ref=e382]
+                  - generic [ref=e383]: Voir
+              - cell "Présent" [ref=e470]
+              - cell "04/11/2026 07:38:08" [ref=e475]
+              - cell "—" [ref=e386]
+              - cell [ref=e387]:
+                - generic [ref=e388]:
+                  - button "Pointer Entrée" [active] [ref=e389] [cursor=pointer]
+                  - button "Pointer Sortie" [ref=e390] [cursor=pointer]
+            - row [ref=e391]:
+              - cell "4" [ref=e392]
+              - cell "03/11/2026 09:28:05" [ref=e393]
+              - cell "Benali" [ref=e394]
+              - cell "Nadia" [ref=e395]
+              - cell "n.benali@hopital-erasme.be" [ref=e396]
+              - cell "Auxiliaire" [ref=e397]
+              - cell "Hôpital Érasme" [ref=e398]
+              - cell "Sans porc" [ref=e399]
+              - cell "Oui" [ref=e400]
+              - cell "MBR-0003" [ref=e401]
+              - cell [ref=e402]:
+                - button "QR MBR-0003 Voir" [ref=e403] [cursor=pointer]:
+                  - img "QR MBR-0003" [ref=e404]
+                  - generic [ref=e405]: Voir
+              - cell "Sorti" [ref=e406]
+              - cell "03/11/2026 08:45:15" [ref=e411]
+              - cell "03/11/2026 12:15:30" [ref=e412]
+              - cell [ref=e413]:
+                - generic [ref=e414]:
+                  - button "Pointer Entrée" [ref=e415] [cursor=pointer]
+                  - button "Pointer Sortie" [ref=e416] [cursor=pointer]
+            - row [ref=e417]:
+              - cell "5" [ref=e418]
+              - cell "03/11/2026 10:04:12" [ref=e419]
+              - cell "Lambert" [ref=e420]
+              - cell "Thomas" [ref=e421]
+              - cell "thomas.lambert@chuv-sante.fr" [ref=e422]
+              - cell "Autre" [ref=e423]
+              - cell "Laboratoire d'Analyses Médicales" [ref=e424]
+              - cell "Aucun" [ref=e425]
+              - cell "Oui" [ref=e426]
+              - cell "MBR-0004" [ref=e427]
+              - cell [ref=e428]:
+                - button "QR MBR-0004 Voir" [ref=e429] [cursor=pointer]:
+                  - img "QR MBR-0004" [ref=e430]
+                  - generic [ref=e431]: Voir
+              - cell "Inscrit" [ref=e432]
+              - cell "—" [ref=e433]
+              - cell "—" [ref=e434]
+              - cell [ref=e435]:
+                - generic [ref=e436]:
+                  - button "Pointer Entrée" [ref=e437] [cursor=pointer]
+                  - button "Pointer Sortie" [ref=e438] [cursor=pointer]
+            - row [ref=e439]:
+              - cell "6" [ref=e440]
+              - cell "03/11/2026 10:45:50" [ref=e441]
+              - cell "Moreau" [ref=e442]
+              - cell "Élodie" [ref=e443]
+              - cell "elodie.moreau@inami-sante.be" [ref=e444]
+              - cell "Infirmier" [ref=e445]
+              - cell "Centre Hospitalier Régional" [ref=e446]
+              - cell "Végan" [ref=e447]
+              - cell "Non" [ref=e448]
+              - cell "MBR-0005" [ref=e452]
+              - cell [ref=e453]:
+                - button "QR MBR-0005 Voir" [ref=e454] [cursor=pointer]:
+                  - img "QR MBR-0005" [ref=e455]
+                  - generic [ref=e456]: Voir
+              - cell "Inscrit" [ref=e457]
+              - cell "—" [ref=e458]
+              - cell "—" [ref=e459]
+              - cell [ref=e460]:
+                - generic [ref=e461]:
+                  - button "Pointer Entrée" [ref=e462] [cursor=pointer]
+                  - button "Pointer Sortie" [ref=e463] [cursor=pointer]
+  - contentinfo [ref=e276]:
+    - generic [ref=e277]:
+      - generic [ref=e278]: Système d'inscription & Pointage QR Code — Solution Google Apps Script & Google Sheets
+      - generic [ref=e279]: Prêt pour déploiement en Application Web & déclencheur OnFormSubmit

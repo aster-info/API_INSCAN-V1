@@ -1,0 +1,100 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Event QR & Google Apps Script" [level=1] [ref=e17]
+            - generic [ref=e18]: Google Sheets v2.4
+          - paragraph [ref=e19]: Inscriptions automatisées, génération de badges QR Code & API de pointage temps réel
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e27]: "Inscrits:"
+            - strong [ref=e28]: "5"
+          - generic [ref=e29]:
+            - generic [ref=e33]: "Présents:"
+            - strong [ref=e34]: "2"
+          - generic [ref=e35]:
+            - generic [ref=e39]: "Sortis:"
+            - strong [ref=e40]: "1"
+          - generic [ref=e41]:
+            - generic [ref=e44]: "Cotisation non réglée:"
+            - strong [ref=e45]: "2"
+      - navigation "Sections principales" [ref=e46]:
+        - button "Code.gs & Guide Déploiement" [ref=e47] [cursor=pointer]
+        - button "Feuille INSCRIPTIONS & Pointage 5" [ref=e54] [cursor=pointer]:
+          - generic [ref=e57]: Feuille INSCRIPTIONS & Pointage
+          - generic [ref=e58]: "5"
+        - button "Scanner QR Jour J (Entrée/Sortie)" [ref=e59] [cursor=pointer]
+        - button "Aperçu E-mail & Badge" [active] [ref=e67] [cursor=pointer]
+  - main [ref=e72]:
+    - region [ref=e577]:
+      - generic [ref=e578]:
+        - generic [ref=e579]:
+          - generic [ref=e585]:
+            - heading "Aperçu E-mail & Badge d'Accès" [level=2] [ref=e586]
+            - paragraph [ref=e587]:
+              - text: Généré et envoyé automatiquement par
+              - code [ref=e588]: onFormSubmit(e)
+              - text: à l'adresse de la colonne D
+          - generic [ref=e589]:
+            - generic [ref=e590]:
+              - generic [ref=e591]: "Participant :"
+              - combobox [ref=e592]:
+                - option "MBR-0001 — Camille Dubois (Infirmier)" [selected]
+                - option "MBR-0002 — Julien Vandenameele (Pharmacien)"
+                - option "MBR-0003 — Nadia Benali (Auxiliaire)"
+                - option "MBR-0004 — Thomas Lambert (Autre)"
+                - option "MBR-0005 — Élodie Moreau (Infirmier)"
+            - generic [ref=e593]:
+              - button "Vue E-mail HTML" [ref=e594] [cursor=pointer]
+              - button "Badge Imprimable" [ref=e595] [cursor=pointer]
+            - button "Imprimer" [ref=e596] [cursor=pointer]
+        - generic [ref=e603]:
+          - generic [ref=e604]:
+            - generic [ref=e605]:
+              - generic [ref=e606]: "De : Comité d'Organisation <contact@evenement-sante.org>"
+              - generic [ref=e607]: 03/11/2026 09:12:45
+            - generic [ref=e608]: "À : Camille Dubois <c.dubois@chu-saintpierre.be>"
+            - generic [ref=e609]:
+              - text: "Objet :"
+              - generic [ref=e610]: 🎟️ Confirmation d'inscription & Votre Badge d'accès (MBR-0001)
+          - generic [ref=e611]:
+            - generic [ref=e612]:
+              - heading "Journée Scientifique & Médicale 2026" [level=1] [ref=e613]
+              - paragraph [ref=e614]: Confirmation officielle d'inscription
+            - generic [ref=e615]:
+              - paragraph [ref=e616]:
+                - text: Bonjour
+                - strong [ref=e617]: Camille Dubois
+                - text: ","
+              - paragraph [ref=e618]: "Nous vous confirmons avec plaisir votre inscription. Voici votre badge d'accès personnel pour l'événement :"
+              - generic [ref=e619]:
+                - generic [ref=e620]: MBR-0001
+                - heading "Camille Dubois" [level=2] [ref=e621]
+                - paragraph [ref=e622]: Infirmier — CHU Saint-Pierre (Bruxelles)
+                - img "QR Code MBR-0001" [ref=e624]
+                - paragraph [ref=e625]: Présentez ce QR code à l'accueil pour votre pointage en temps réel
+              - generic [ref=e626]:
+                - generic [ref=e627]:
+                  - generic [ref=e628]: "📅 Date :"
+                  - generic [ref=e629]: Samedi 14 Novembre 2026 à 08h30
+                - generic [ref=e630]:
+                  - generic [ref=e631]: "📍 Lieu :"
+                  - generic [ref=e632]: Palais des Congrès - Auditoire Pasteur
+                - generic [ref=e633]:
+                  - generic [ref=e634]: "🍽️ Régime :"
+                  - generic [ref=e635]: Végé
+                - generic [ref=e636]:
+                  - generic [ref=e637]: "💳 Cotisation :"
+                  - generic [ref=e638]: ✅ En ordre
+              - generic [ref=e639]:
+                - text: "ℹ️ Consignes pour le Jour J :"
+                - list [ref=e640]:
+                  - listitem [ref=e641]: Gardez cet e-mail accessible sur votre smartphone ou imprimez ce message.
+                  - listitem [ref=e642]: À votre arrivée et à votre départ, présentez le QR code au scanner de pointage.
+            - generic [ref=e643]: "Comité d'Organisation — Contact : contact@evenement-sante.org"
+  - contentinfo [ref=e276]:
+    - generic [ref=e277]:
+      - generic [ref=e278]: Système d'inscription & Pointage QR Code — Solution Google Apps Script & Google Sheets
+      - generic [ref=e279]: Prêt pour déploiement en Application Web & déclencheur OnFormSubmit
